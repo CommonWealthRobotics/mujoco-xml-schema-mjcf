@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings version="2.0" xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/jaxb bindingschema_2_0.xsd ">
+	<jxb:bindings schemaLocation="file:mujoco.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+	<jxb:bindings schemaLocation="file:element_types/default.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.MuJoCoDefault" />
+		</jxb:schemaBindings>
+	</jxb:bindings>
+
+	<jxb:bindings schemaLocation="file:element_types/actuator.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.actuator" />
+		</jxb:schemaBindings>
+	
+	</jxb:bindings>
+	<jxb:bindings schemaLocation="file:element_types/body.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.body" />
+		</jxb:schemaBindings>
+		</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/contact.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.contact" />
+		</jxb:schemaBindings>
+	</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/keyframe.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.keyframe" />
+		</jxb:schemaBindings>
+	</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/root.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.root" />
+		</jxb:schemaBindings>
+	</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/size.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.size" />
+		</jxb:schemaBindings>
+	</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/tendon.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.tendon" />
+		</jxb:schemaBindings>
+	</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/asset.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.asset" />
+		</jxb:schemaBindings>
+	</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/compiler.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.compiler" />
+		</jxb:schemaBindings>
+	</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/custom.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.custom" />
+		</jxb:schemaBindings>
+		</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/equality.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.equality" />
+		</jxb:schemaBindings>
+		</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/option.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.option" />
+		</jxb:schemaBindings>
+		</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/sensor.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.sensor" />
+		</jxb:schemaBindings>
+		</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/statistic.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.statistic" />
+		</jxb:schemaBindings>
+		</jxb:bindings> 
+	</jxb:bindings>	<jxb:bindings schemaLocation="file:element_types/visual.xsd">
+		<jxb:schemaBindings>
+			<jxb:package name="org.mujoco.xml.visual" />
+		</jxb:schemaBindings>
+
+	
+</jxb:bindings> 
