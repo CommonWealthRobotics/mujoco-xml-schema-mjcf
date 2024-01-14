@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:rt="root">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:rt="root" xmlns:def="default">
 
     <xs:import schemaLocation="element_types/root.xsd" namespace="root"/>
     <xs:import schemaLocation="element_types/compiler.xsd" namespace="compiler"/>
@@ -22,7 +22,7 @@
     <!-- Recursive types -->
 
     <!-- default -->
-    <xs:complexType name="defaultType" xmlns:def="default">
+    <xs:complexType name="defaultType" >
         <xs:complexContent>
             <xs:extension base="def:defaultType">
                 <xs:choice minOccurs="0" maxOccurs="unbounded">
