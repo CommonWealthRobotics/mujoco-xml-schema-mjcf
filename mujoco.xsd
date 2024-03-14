@@ -57,7 +57,7 @@
                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                     <xs:element name="inertial" type="bd:inertialType"/>
                     <xs:element name="joint" type="bd:jointType"/>
-                    <xs:element name="freejoint" type="bd:jointType"/>
+                    <xs:element name="freejoint" type="bd:freejointType"/>
                     <xs:element name="geom" type="bd:geomType"/>
                     <xs:element name="site" type="bd:siteType"/>
                     <xs:element name="camera" type="bd:cameraType"/>
