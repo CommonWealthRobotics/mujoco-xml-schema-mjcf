@@ -4,7 +4,7 @@
     xmlns:at="attributeTypes">
 
     <xs:import schemaLocation="../attribute_types/attribute_types.xsd" namespace="attributeTypes"/>
-
+	<xs:complexType name="body" />
     <xs:complexType name="bodyType">
         <xs:attribute name="name" type="xs:string" use="optional"/>
         <xs:attribute name="childclass" type="xs:string" use="optional"/>
