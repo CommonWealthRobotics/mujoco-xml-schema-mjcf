@@ -125,6 +125,8 @@
         <xs:restriction base="xs:string">
             <xs:enumeration value="Euler"/>
             <xs:enumeration value="RK4"/>
+            <xs:enumeration value="implicit"/>
+            <xs:enumeration value="implicitfast"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="collisionType">
