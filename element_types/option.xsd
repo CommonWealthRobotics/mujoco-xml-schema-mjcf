@@ -42,10 +42,16 @@
         <xs:attribute name="filterparent" type="at:flagSimpleType" default="enable"/>
         <xs:attribute name="actuation" type="at:flagSimpleType" default="enable"/>
         <xs:attribute name="refsafe" type="at:flagSimpleType" default="enable"/>
+        <xs:attribute name="sensor" type="at:flagSimpleType" default="enable"/>
+        <xs:attribute name="midphase" type="at:flagSimpleType" default="enable"/>
+        <xs:attribute name="eulerdamp" type="at:flagSimpleType" default="enable"/>
         <xs:attribute name="override" type="at:flagSimpleType" default="disable"/>
         <xs:attribute name="energy" type="at:flagSimpleType" default="disable"/>
         <xs:attribute name="fwdinv" type="at:flagSimpleType" default="disable"/>
+        <xs:attribute name="invdiscrete" type="at:flagSimpleType" default="disable"/>
         <xs:attribute name="sensornoise" type="at:flagSimpleType" default="disable"/>
+        <xs:attribute name="multiccd" type="at:flagSimpleType" default="disable"/>
+        <xs:attribute name="island" type="at:flagSimpleType" default="disable"/>
     </xs:complexType>
 
 </xs:schema>
