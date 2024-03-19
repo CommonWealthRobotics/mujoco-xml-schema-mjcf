@@ -57,6 +57,8 @@
         <xs:complexContent>
             <xs:extension base="motorType">
                 <xs:attribute name="kp" type="xs:decimal" default="1"/>
+                <xs:attribute name="kv" type="xs:decimal" default="1"/>
+                <xs:attribute name="inheritrange" type="xs:decimal" default="1"/>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
